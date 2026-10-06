@@ -50,3 +50,5 @@ This installs any missing dependencies, then trains and evaluates the ensemble e
 ## Realistic expectations
 
 Daily S&P 500 direction prediction is dominated by noise — published results on broad indices sit in the ~52–58% range for well-constructed models. This pipeline's tri-class + abstention + regime gating setup aims for higher *selective* accuracy (roughly 65–70%) on the highest-confidence subset of predictions, at the cost of trading less often. Details and caveats are in [final.md](final.md).
+
+> **Note:** This was built as a coursework/academic project to explore deep learning and ensemble methods on financial time series. It is not intended for real trading or investment use, and nothing here is financial advice.
